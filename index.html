@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="con">
+      <div class="form">
+        <label for="name">Ad:</label>
+        <input type="text" placeholder="Name add:" id="name" />
+
+        <label for="lastName">Soyad:</label>
+        <input type="text" id="lastName" placeholder="Soyad add:" />
+
+        <label for="age">Yaş:</label>
+        <input type="number" id="age" placeholder="Yaş add:" />
+        <div class="bbtn">
+          <button id="btn">add</button>
+        </div>
+      </div>
+
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Yaş</th>
+          </tr>
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
